@@ -36,6 +36,4 @@ const HOST = "0.0.0.0";
     server.log.info(`Backend App is running at http://localhost:${PORT}`);
     server.log.info("Press CTRL-c to stop");
   });
-
-  
 })();
