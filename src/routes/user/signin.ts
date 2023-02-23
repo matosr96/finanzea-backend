@@ -9,7 +9,7 @@ export const signinRoute: RouteOptions = {
     const { body } = request;
     const { email, password } = body as User;
     try {
-      const user = await signin({ email, password });
+      const user = await signin(email, password);
       reply.status(200).send(user);
     } catch (err) {
       if (err instanceof Error) {
