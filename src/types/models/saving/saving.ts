@@ -7,5 +7,6 @@ export interface Saving {
   amount_saved: number;
   goal: number;
   goal_date: string;
+  percentage: number;
   status: string;
 }
