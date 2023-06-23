@@ -4,7 +4,7 @@
 Este es el backend de la aplicación Finanzea. Proporciona una API para administrar y gestionar las finanzas de los usuarios.
 
 ## Instalación
-1. Clona este repositorio: `git clone <URL_DEL_REPOSITORIO>`
+1. Clona este repositorio: `git clone https://github.com/matosr96/finanzea-backend/tree/master`
 2. Navega hasta el directorio del proyecto: `cd finanzea-backend`
 3. Instala las dependencias: `npm install`
 
